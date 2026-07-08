@@ -1,0 +1,78 @@
+body {
+    background-color: #f0f7f4; /* Verde pastel muy suave */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2d3748;
+    margin: 0;
+    padding: 20px;
+}
+
+.contenedor {
+    max-width: 500px;
+    background: #ffffff;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    border-top: 5px solid #38a169; /* Línea verde veterinaria arriba */
+}
+
+h1 {
+    text-align: center;
+    color: #276749;
+    font-size: 20pt;
+    margin-bottom: 25px;
+}
+
+.campo {
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #4a5568;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+    box-sizing: border-box; /* 🚨 Clave: evita que el padding deforme el ancho */
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #38a169;
+    box-shadow: 0 0 5px rgba(56, 161, 105, 0.2);
+}
+
+button {
+    width: 100%;
+    background-color: #38a169;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 12pt;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #2f855a;
+}
+
+/* Estilos extra para la tarjeta de resultado */
+.tarjeta-resultado {
+    border-left: 5px solid #3182ce;
+    padding-left: 15px;
+    background: #ebf8ff;
+    padding: 15px;
+    border-radius: 6px;
+}
+.prioridad-Alta { color: #e53e3e; font-weight: bold; }
+.prioridad-Media { color: #dd6b20; font-weight: bold; }
+.prioridad-Baja { color: #38a169; font-weight: bold; }
